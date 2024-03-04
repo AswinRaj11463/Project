@@ -1,0 +1,196 @@
+body{
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registerpage h2{
+    text-align: center;
+}
+.registerpage{
+    width: 600px;
+    height: auto;
+    /* background-color: lightblue; */
+}
+.registerpage .firstname{
+    text-align: center;
+    width: 100%;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+}
+.firstname input{
+    margin: auto 80px;
+    width: 20%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    transition: width 1s;
+    box-shadow: 5px 5px 5px;
+}
+.firstname label{
+    font-weight: 1000;
+    font-size: large;
+}
+.firstname input:hover{
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+.registerpage .lastname{
+    text-align: center;
+    padding: 20px 0%;
+    justify-content: center;
+    width: 100%;
+    height:30px;
+    
+}
+.lastname input{
+    width: 20%;
+    margin: auto 80px;
+    box-shadow: 5px 5px 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    height: 100%;
+    transition: width 1s;
+
+}
+.lastname input:hover{
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+}
+.lastname label{
+    font-weight: bold;
+    font-size: larger;
+}
+.registerpage .gmail{
+    text-align: center;
+    margin: auto 20px;
+    width: 100%;
+    height: 30px;
+    
+}
+.gmail input{
+    box-shadow: 5px 5px 5px;
+    border-radius: 30px;
+    border: 0px;
+    outline: 0%;
+    height: 100%;
+    width: 20%;
+    transition: width 1s;
+    margin: auto 113px;
+}
+.gmail input:hover{
+    width: 50%;
+    background-color: red;
+}
+.gmail label{
+    font-size: larger;
+    font-weight: bold;
+}
+.registerpage .pass{
+    text-align: center;
+    margin: 20px auto;
+    height: 30px;
+    width: 100%;
+}
+.pass label{
+    font-size: larger;
+    font-weight: bold;
+}
+.pass input{
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    height: 100%;
+    margin: 0% 85px;
+    box-shadow: 5px 5px 5px;
+    transition: width 1s;
+}
+.pass input:hover{
+    width: 50%;
+    background-color: aqua;
+}
+.registerpage .confirmpass{
+    text-align:center;
+    width: 100%;
+    height: 30px;
+    margin: 0% -5%;
+}
+.confirmpass input{
+    width: 20%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    transition: width 1s;
+    box-shadow: 5px 5px 5px;
+    margin: auto 10%;
+}
+.confirmpass label{
+    font-size: larger;
+    font-weight: bold;
+}
+.confirmpass input:hover{
+    width: 50%;
+    background-color: aquamarine;
+}
+.registerpage .dateof{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin: 15px 20px;
+
+
+}
+.dateof input{
+    border: 0px;
+    margin: auto 120px;
+    outline: 0px;
+    width: 20%;
+    height: 100%;
+    border-radius: 30px;
+    transition: width 1s;
+    box-shadow: 5px 5px 5px;
+}
+.dateof input:hover{
+    width: 50%;
+    background-color: lightcoral;
+}
+.dateof label{
+    font-size: larger;
+    font-weight: bold;
+}
+.nxtbutton{
+    display: flex;
+    text-align: center;
+}
+.nxtbutton .button{
+    width: 8%;
+    height: 30px;
+    margin: 10px 190px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 5px;
+    transition: width 1s;
+    background-color: transparent;
+
+}
+.nxtbutton a{
+    text-decoration: none;
+    color: brown;
+}
+.nxtbutton .button:hover{
+    width: 10%;
+    background-color:rgba(165, 42, 42, 0.482);
+    color: brown;
+}
